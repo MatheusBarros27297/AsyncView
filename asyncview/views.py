@@ -3,6 +3,8 @@ from time import sleep
 import httpx
 from django.http import HttpResponse
 
+# Comentário para adicionar pullRequest
+
 async def http_call_async():
     for num in range(1, 6):
         await asyncio.sleep(1)
